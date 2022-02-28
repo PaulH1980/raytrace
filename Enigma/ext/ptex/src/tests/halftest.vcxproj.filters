@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\pbrt-v3-master\pbrt-v3\src\ext\ptex\src\tests\halftest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\pbrt-v3-master\pbrt-v3\src\ext\ptex\src\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{75DA11CD-6D33-352A-B2B6-D2DCB3BA949D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

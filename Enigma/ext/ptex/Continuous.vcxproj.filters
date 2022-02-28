@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\pbrt-v3-master\pbrt-cmake\CMakeFiles\d2d1c0601abf17918be0d99eb4e174e6\Continuous.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\pbrt-v3-master\pbrt-v3\src\ext\ptex\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\pbrt-v3-master\pbrt-cmake\src\ext\ptex\CMakeFiles\Continuous" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{011E9E41-286F-36D7-AB99-B89988D3C24C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

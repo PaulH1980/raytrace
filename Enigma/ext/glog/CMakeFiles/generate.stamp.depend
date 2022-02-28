@@ -1,0 +1,39 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.22/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeConfigurableFile.in
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckIncludeFile.cxx.in
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckTypeSize.c.in
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/CMake/share/cmake-3.22/Templates/CPackConfig.cmake.in
+C:/pbrt-v3-master/pbrt-cmake/CMakeFiles/CheckTypeSize/HAVE_UINT16_T.c
+C:/pbrt-v3-master/pbrt-cmake/CMakeFiles/CheckTypeSize/HAVE_U_INT16_T.c
+C:/pbrt-v3-master/pbrt-cmake/CMakeFiles/CheckTypeSize/HAVE___UINT16.c
+C:/pbrt-v3-master/pbrt-v3/src/ext/glog/CMakeLists.txt
+C:/pbrt-v3-master/pbrt-v3/src/ext/glog/cmake/DetermineGflagsNamespace.cmake
+C:/pbrt-v3-master/pbrt-v3/src/ext/glog/glog-config.cmake.in
+C:/pbrt-v3-master/pbrt-v3/src/ext/glog/src/config.h.cmake.in
+C:/pbrt-v3-master/pbrt-v3/src/ext/glog/src/glog/logging.h.in
+C:/pbrt-v3-master/pbrt-v3/src/ext/glog/src/glog/raw_logging.h.in
+C:/pbrt-v3-master/pbrt-v3/src/ext/glog/src/glog/stl_logging.h.in
+C:/pbrt-v3-master/pbrt-v3/src/ext/glog/src/glog/vlog_is_on.h.in

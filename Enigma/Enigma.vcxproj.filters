@@ -1,0 +1,954 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Imgui">
+      <UniqueIdentifier>{4117d2c4-b513-4dd7-b343-077335f6198e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fmt">
+      <UniqueIdentifier>{1e14df24-a288-403f-b640-db739fad2475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RayTrace">
+      <UniqueIdentifier>{66795eba-e7c0-45b0-a700-c7769a54f114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RayTrace\Scene">
+      <UniqueIdentifier>{ff38fd0e-cf0d-4dbd-beba-ddbf571f1831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RayTrace\Integrators">
+      <UniqueIdentifier>{2adbc671-3d38-46ed-b797-5e4640e29f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RayTrace\Material">
+      <UniqueIdentifier>{28867ecb-6e8d-400e-ad9a-8e0c1c34ae2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RayTrace\ext">
+      <UniqueIdentifier>{8ae209c8-a61f-489e-aef7-8bc525f65d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RayTrace\Common">
+      <UniqueIdentifier>{4ffaefbf-27f8-4849-aa43-a18850c757ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Imgui\ImGuiGizmo">
+      <UniqueIdentifier>{08b9a0d4-6290-452c-8361-60e54da498c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RayTrace">
+      <UniqueIdentifier>{d015fbba-c920-46f9-833b-c005be05ead5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{fa26bf3f-3e0e-4a5a-8256-4487b1e56559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{6f920a3e-c83a-41e4-b2a2-6e682a51985c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{9281f629-9d4a-4e27-8a01-17525174b862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\OpenGL">
+      <UniqueIdentifier>{b2d8e720-e7c4-43fa-8fd6-d5f1ec571f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Input">
+      <UniqueIdentifier>{b825efda-151f-4eca-bad7-6c9eb2e84fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Resource">
+      <UniqueIdentifier>{7f30c479-e1e0-440a-a2a2-0c0cbeaf40d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Core">
+      <UniqueIdentifier>{7c443770-1158-47a9-85e9-040481a15dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Core\Json">
+      <UniqueIdentifier>{d4c13865-f686-4cdb-aa8b-cf043e74d6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\UI">
+      <UniqueIdentifier>{269aae3b-cc57-4b68-b7f3-0bd8336c8e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Geometry">
+      <UniqueIdentifier>{c94f63f0-639e-4e45-a5e4-112d9fabc276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Scene">
+      <UniqueIdentifier>{3e8d4f72-509d-41e3-bfe5-37741228a7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Scene\Layers">
+      <UniqueIdentifier>{c4029116-f042-4dc0-9725-b344494f2669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Scene\Ecs">
+      <UniqueIdentifier>{f46c5f06-82ef-4628-85cb-6cff08f13168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Common">
+      <UniqueIdentifier>{d1744775-ac03-4a22-bdfd-436a19c447ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Common\Image">
+      <UniqueIdentifier>{a1ee132a-d29a-4de2-a15e-ee21c93afe93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Math">
+      <UniqueIdentifier>{191a6f01-8bc9-401b-bd29-5909631ddbdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Common">
+      <UniqueIdentifier>{18b6a7e2-5f8a-424c-ad92-9edc79a9bb4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Core">
+      <UniqueIdentifier>{db3e1891-21d0-46c9-91c0-3fec4cf37755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Geometry">
+      <UniqueIdentifier>{be9eb0b8-ae34-43a9-aebe-dbcd90d49601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Input">
+      <UniqueIdentifier>{d06d82aa-3f53-49ec-8539-dd4be0c6ee02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Math">
+      <UniqueIdentifier>{f510e6b4-0b5c-4254-870f-d03933b6d0c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Opengl">
+      <UniqueIdentifier>{1ece172a-927b-487b-ae6d-ac8e6da2eb52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Resource">
+      <UniqueIdentifier>{eb79c1a6-bd43-499c-9248-e3427419af4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Editor">
+      <UniqueIdentifier>{90cd07ae-74a6-4c65-8200-c7da0e82f545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Scene">
+      <UniqueIdentifier>{44b5ce5a-e480-481d-9b98-12b28dbeca29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Scene\Layers">
+      <UniqueIdentifier>{62bb54aa-ab8f-4a27-b622-b53a909d84a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\UI">
+      <UniqueIdentifier>{b5d163b0-57ac-4b7c-8b2a-af36a68b94b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\IO">
+      <UniqueIdentifier>{dabc6dc0-8c1a-49a2-8ab7-91b36b6cb4f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Editor">
+      <UniqueIdentifier>{05e49151-8878-4bb2-b439-d9df1fae66dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Editor\History">
+      <UniqueIdentifier>{b44b8944-869d-4fe6-a3ec-736e54f9a046}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ext\rply.cpp">
+      <Filter>Header Files\RayTrace\ext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_demo.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_draw.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_tables.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\backends\imgui_impl_sdl.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\fmt\fmt\src\format.cc">
+      <Filter>Source Files\fmt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\fmt\fmt\src\os.cc">
+      <Filter>Source Files\fmt</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuizmo.cpp">
+      <Filter>Source Files\Imgui\ImGuiGizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="Api.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="BVH.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="BxDF.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectLightingIntegrator.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="eFloat.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Film.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Integrator.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Interaction.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Medium.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="MediumInterface.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="MicrofacetDist.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="MipMap.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Nurbs.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Primitive.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="PathIntegrator.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterSet.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="VolPathIntegrator.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="SubDiv.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Spectrum.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeImp.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="LightDist.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="BdptIntegrator.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="MathCommon.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="BBox.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MonteCarlo.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="SobolMatrices.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="HWMesh.cpp">
+      <Filter>Source Files\Engine\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorLayer.cpp">
+      <Filter>Source Files\Engine\Scene\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePaths.cpp">
+      <Filter>Source Files\Engine\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Source Files\Engine\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="HWViewport.cpp">
+      <Filter>Source Files\Engine\Opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="HWCamera.cpp">
+      <Filter>Source Files\Engine\Opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="HWFrameBuffer.cpp">
+      <Filter>Source Files\Engine\Opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="HWLight.cpp">
+      <Filter>Source Files\Engine\Opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="HWMaterial.cpp">
+      <Filter>Source Files\Engine\Opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="HWPass.cpp">
+      <Filter>Source Files\Engine\Opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="HWRenderer.cpp">
+      <Filter>Source Files\Engine\Opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="HWShader.cpp">
+      <Filter>Source Files\Engine\Opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="HWTexInfo.cpp">
+      <Filter>Source Files\Engine\Opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="HWTexture.cpp">
+      <Filter>Source Files\Engine\Opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="HWVertexBuffer.cpp">
+      <Filter>Source Files\Engine\Opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Lights.cpp">
+      <Filter>Source Files\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerBase.cpp">
+      <Filter>Source Files\Engine\Scene\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerManager.cpp">
+      <Filter>Source Files\Engine\Scene\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTestApp.cpp">
+      <Filter>Source Files\Engine\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Source Files\Engine\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldLayer.cpp">
+      <Filter>Source Files\Engine\Scene\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="UILayer.cpp">
+      <Filter>Source Files\Engine\Scene\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneItemCollector.cpp">
+      <Filter>Source Files\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneView.cpp">
+      <Filter>Source Files\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlayLayer.cpp">
+      <Filter>Source Files\Engine\Scene\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyLayer.cpp">
+      <Filter>Source Files\Engine\Scene\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBase.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleMesh.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="Modifiers.cpp">
+      <Filter>Source Files\Engine\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files\Engine\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageIO.cpp">
+      <Filter>Source Files\Engine\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="IO.cpp">
+      <Filter>Source Files\Engine\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>Source Files\Engine\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\RayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="RNG.cpp">
+      <Filter>Source Files\Engine\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="HWStates.cpp">
+      <Filter>Source Files\Engine\Opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemBase.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryStack.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LodePng.cpp">
+      <Filter>Source Files\Engine\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Json.cpp">
+      <Filter>Source Files\Engine\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="targa.c">
+      <Filter>Source Files\Engine\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Source Files\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="HierarchyWindow.cpp">
+      <Filter>Source Files\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceExplorer.cpp">
+      <Filter>Source Files\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneWindow.cpp">
+      <Filter>Source Files\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Statusbar.cpp">
+      <Filter>Source Files\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolbar.cpp">
+      <Filter>Source Files\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowWindow.cpp">
+      <Filter>Source Files\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="LogWindow.cpp">
+      <Filter>Source Files\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenubar.cpp">
+      <Filter>Source Files\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyWindow.cpp">
+      <Filter>Source Files\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="WrappedEntity.cpp">
+      <Filter>Source Files\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Selection.cpp">
+      <Filter>Source Files\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Components.cpp">
+      <Filter>Source Files\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MemberProperties.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyPaste.cpp">
+      <Filter>Source Files\Engine\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryItem.cpp">
+      <Filter>Source Files\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryItems.cpp">
+      <Filter>Source Files\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="UIAction.cpp">
+      <Filter>Source Files\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HWDrawable.cpp">
+      <Filter>Source Files\Engine\Opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifierStack.cpp">
+      <Filter>Source Files\Engine\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="FileListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MathCommon.h">
+      <Filter>Header Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Header Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files\RayTrace\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeImp.h">
+      <Filter>Header Files\RayTrace\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Spectrum.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MonteCarlo.h">
+      <Filter>Header Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Film.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RNG.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Integrator.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BxDF.h">
+      <Filter>Header Files\RayTrace\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitive.h">
+      <Filter>Header Files\RayTrace\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights.h">
+      <Filter>Header Files\RayTrace\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\RayTrace\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="BVH.h">
+      <Filter>Header Files\RayTrace\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\RayTrace\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleMesh.h">
+      <Filter>Header Files\RayTrace\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SubDiv.h">
+      <Filter>Header Files\RayTrace\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="KdTree.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MipMap.h">
+      <Filter>Header Files\RayTrace\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="TexInfo.h">
+      <Filter>Header Files\RayTrace\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Interaction.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Volume.h">
+      <Filter>Header Files\RayTrace\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Header Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Concurrency.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterSet.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StringPrint.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Api.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve.h">
+      <Filter>Header Files\RayTrace\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Nurbs.h">
+      <Filter>Header Files\RayTrace\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SobolMatrices.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SamplerInclude.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Medium.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MediumInterface.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="eFloat.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MicrofacetDist.h">
+      <Filter>Header Files\RayTrace\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="LightDist.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialSpecs.h">
+      <Filter>Header Files\RayTrace\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation.h">
+      <Filter>Header Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\rply.h">
+      <Filter>Header Files\RayTrace\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="Fourier.h">
+      <Filter>Header Files\RayTrace\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="BdptIntegrator.h">
+      <Filter>Header Files\RayTrace\Integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="PathIntegrator.h">
+      <Filter>Header Files\RayTrace\Integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="VolPathIntegrator.h">
+      <Filter>Header Files\RayTrace\Integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectLightingIntegrator.h">
+      <Filter>Header Files\RayTrace\Integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerManager.h">
+      <Filter>Header Files\Engine\Scene\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer.h">
+      <Filter>Header Files\Engine\Scene\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyLayer.h">
+      <Filter>Header Files\Engine\Scene\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldLayer.h">
+      <Filter>Header Files\Engine\Scene\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerBase.h">
+      <Filter>Header Files\Engine\Scene\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="HWFormats.h">
+      <Filter>Header Files\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="HWRenderer.h">
+      <Filter>Header Files\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="HWStates.h">
+      <Filter>Header Files\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderSources.h">
+      <Filter>Header Files\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="HWMaterial.h">
+      <Filter>Header Files\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemBase.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FrontEndDef.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="HWFrameBuffer.h">
+      <Filter>Header Files\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="HWTexInfo.h">
+      <Filter>Header Files\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="HWShader.h">
+      <Filter>Header Files\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="HWVertexBuffer.h">
+      <Filter>Header Files\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="HWTexture.h">
+      <Filter>Header Files\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="HWViewport.h">
+      <Filter>Header Files\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Engine\Scene\Ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files\Engine\Scene\Ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBase.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="HWPass.h">
+      <Filter>Header Files\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="AppInit.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyVisitor.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Header Files\Engine\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuizmo.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Json.h">
+      <Filter>Header Files\Engine\Core\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneView.h">
+      <Filter>Header Files\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="HWMesh.h">
+      <Filter>Header Files\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="HWLight.h">
+      <Filter>Header Files\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneItemCollector.h">
+      <Filter>Header Files\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneItem.h">
+      <Filter>Header Files\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="HWFrameBufferClear.h">
+      <Filter>Header Files\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlayLayer.h">
+      <Filter>Header Files\Engine\Scene\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="ContextInitDefault.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePaths.h">
+      <Filter>Header Files\Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="HWCamera.h">
+      <Filter>Header Files\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="UUID.h">
+      <Filter>Header Files\Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BBox.h">
+      <Filter>Header Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="LodePng.h">
+      <Filter>Header Files\Engine\Common\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files\Engine\Common\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_resize.h">
+      <Filter>Header Files\Engine\Common\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_write.h">
+      <Filter>Header Files\Engine\Common\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="targa.h">
+      <Filter>Header Files\Engine\Common\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>Header Files\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageChannels.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Modifiers.h">
+      <Filter>Header Files\Engine\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorLayer.h">
+      <Filter>Header Files\Engine\Scene\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Header Files\Engine\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="LogWindow.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenubar.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneWindow.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HierarchyWindow.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyWindow.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceExplorer.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UiIncludes.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Statusbar.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Toolbar.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowWindow.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilmSDL.h">
+      <Filter>Header Files\RayTrace\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursors.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HWDrawable.h">
+      <Filter>Header Files\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>Header Files\Engine\Scene\Ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorGrid.h">
+      <Filter>Header Files\Engine\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="WrappedEntity.h">
+      <Filter>Header Files\Engine\Scene\Ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="UiHelperFuncs.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Selection.h">
+      <Filter>Header Files\Engine\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryItem.h">
+      <Filter>Header Files\Engine\Editor\History</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryItems.h">
+      <Filter>Header Files\Engine\Editor\History</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryStack.h">
+      <Filter>Header Files\Engine\Editor\History</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyPaste.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EventBase.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NonAssignable.h">
+      <Filter>Header Files\Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MemberProperties.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties.h">
+      <Filter>Header Files\Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAction.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifierStack.h">
+      <Filter>Header Files\Engine\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Header Files\Engine\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="LruCache.h">
+      <Filter>Header Files\Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DragDrop.h">
+      <Filter>Header Files\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FileListener.h">
+      <Filter>Header Files\Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files\Engine\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
